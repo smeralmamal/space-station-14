@@ -1,0 +1,13 @@
+- type: entity
+  name: Hairball
+  parent: BaseItem
+  id: hairball
+  description: hairball-description
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Specific/hairball.rsi
+    state: hairball
+  - type: Item
+    sprite: _Sunrise/Objects/Specific/hairball.rsi
+    heldPrefix: hairball
+    size: Tiny
