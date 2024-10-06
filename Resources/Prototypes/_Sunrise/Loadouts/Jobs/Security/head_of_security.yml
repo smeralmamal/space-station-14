@@ -1,0 +1,7 @@
+- type: loadout
+  id: ClothingHosBeltSheath
+  equipment:
+    belt: ClothingHosBeltSheathFilled
+    effects:
+    - !type:GroupLoadoutEffect
+      proto: MasterHoS

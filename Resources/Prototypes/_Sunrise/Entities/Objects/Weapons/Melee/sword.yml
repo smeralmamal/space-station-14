@@ -1,0 +1,23 @@
+- type: entity
+  name: Hos-saber-name
+  parent: CaptainSabre
+  id: HosSaber
+  description: Hos-saber-description
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Weapons/Melee/hosSabre.rsi
+  - type: MeleeWeapon
+    attackRate: 0.8
+    damage:
+      types:
+        Slash: 25
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Reflect
+    reflectProb: .2
+    spread: 90
+  - type: Item
+    sprite: _Sunrise/Objects/Weapons/Melee/hosSabre.rsi
+  - type: Tag
+    tags:
+    - HosSabre
